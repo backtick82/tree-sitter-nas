@@ -61,19 +61,19 @@ export default grammar({
 
     _condition_value: $ => choice(
       alias(choice("true", "false"), $.boolean),
-      alias($._conditional_package_name, $.package_name),            
-      /-?\d+(\.\d+)?/,            
-      /"[^"\n\r]*"/u,             
-      /'[^'\n\r]*'/u              
+      alias($._conditional_package_name, $.package_name),
+      /-?\d+(\.\d+)?/,
+      /"[^"\n\r]*"/u,
+      /'[^'\n\r]*'/u
     ),
 
     action_statement: $ => seq(
-      alias($._action_word, $.action_name), 
+      alias($._action_word, $.action_name),
       optional($.action_arguments)
     ),
 
     _conditional_action_statement: $ => seq(
-      alias($._action_word, $.action_name), 
+      alias($._action_word, $.action_name),
       optional($.action_arguments)
     ),
 
