@@ -1,0 +1,10 @@
+=========
+Bad Label
+:error
+=========
+
+#LabelwithPipe|
+
+---
+
+

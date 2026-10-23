@@ -1,0 +1,95 @@
+==================
+Actions
+==================
+
+set healthPotionBoost 5
+set maxHealth 10
+set myHealth {maxHealth}
+setadd myHealth healthPotionBoost
+setadd myHealth 3
+
+setrandrange attackDamage 1 5
+setrandrangedecimal attackDamage 1 5
+setrandlist myWarriorName Zog the Destroyer|Kron the Cunning|Dunidas of Kas
+
+setfromhexcolor myColor FF00FF
+settohexcolor hexCode myColor
+
+resetdata packages oldman_*
+resetdata packages *_oldman
+resetdata packages old
+resetdata packages *old*
+
+reply 1|You: Sure thing.|#replyYes
+reply 2|You: No thanks.|#replyNo
+reply 3|You: Can you elaborate?|#replyElaborate
+
+setsimilarity sim runArg1 curPassword
+setsimilarity sim runArg1 "Thanks spiders 10"
+setsimilarity sim "test 1" "test 2"
+
+---
+
+(source_file
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments
+      (unwrapped_package
+        (package_name))))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments))
+  (action_statement
+    (action_name)
+    (action_arguments)))

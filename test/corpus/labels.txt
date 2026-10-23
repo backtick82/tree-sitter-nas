@@ -1,0 +1,46 @@
+======
+Labels
+======
+
+#SomeLabel
+#somelabel
+
+#Label163
+#Label[72]
+#-Label
+#Messy+-=]-9[:;Label
+#-
+#[,]
+#452
+
+#Unicode⪻❻⊘⟈≋⥤┷Label
+#⛫⑴⚎⼓⮥❺╚⇧
+#L⢩o⺜t⦀s⥹O⺫f⯳U⿊n↗iⵤc┬o▴d∟e⯥!
+
+---
+
+(source_file
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name))
+  (label_definition
+    (label_name)))
