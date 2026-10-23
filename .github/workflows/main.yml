@@ -1,0 +1,4 @@
+- name: tree-sitter-check
+  # You may pin to the exact commit or the version.
+  # uses: RenjiSann/tree-sitter-check@38db31691a90c7b28566f10296f2efa1b4dc8c70
+  uses: RenjiSann/tree-sitter-check@v0.0.4
